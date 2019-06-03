@@ -6,14 +6,14 @@
 
 ### Resumo de instalações e mudanças nas configurações
 Configuração do servidor:
-* (Amazon Lightsail)[https://lightsail.aws.amazon.com];
+* [Amazon Lightsail](https://lightsail.aws.amazon.com);
 * Linux/UNIX;
 * SO: Ubunto 16.04 LTS
 
 Configuração Check-list:
 * Adicione o usuário 'grader' - 'adduser example_user';
 * Adicione privilégios 'sudo' - 'adduser example_user sudo';
-* Para (SSH Key)[https://www.linode.com/docs/security/securing-your-server/#create-an-authentication-key-pair];
+* Para [SSH Key](https://www.linode.com/docs/security/securing-your-server/#create-an-authentication-key-pair);
 * Configure o Firewall:
 '$ sudo ufw default deny incoming'
 '$ sudo ufw default allow outgoing'
